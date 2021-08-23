@@ -1,0 +1,38 @@
+{
+  "name": "nami-base",
+  "version": "0.6.19",
+  "description": "The base classes of nami",
+  "keywords": [
+    "class"
+  ],
+  "author": "tianxiaobo",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/packages/nami-base/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.sankuai.com/fe/nami.git"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "gitHead": "26a0eff94679f55b3d22091c2fdafb76027894d5",
+  "devDependencies": {
+    "koa": "^2.13.1",
+    "rollup": "^2.52.7"
+  },
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.ts"
+  }
+}

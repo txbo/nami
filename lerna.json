@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "command": {
+    "version": {
+      "conventionalCommits": true
+    },
+    "publish": {
+      "registry": "http://r.npm.sankuai.com"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "nami-server",
+  "version": "0.4.13",
+  "description": "The server class for nami base koa",
+  "author": "tianxiaobo''",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/packages/nami-server/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.sankuai.com/fe/nami.git"
+  },
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.ts"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-static": "^4.0.1",
+    "@types/koa__router": "^8.0.4"
+  },
+  "gitHead": "d6f270f6153c430c1394970569450a968f63f61b"
+}

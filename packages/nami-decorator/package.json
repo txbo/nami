@@ -1,0 +1,46 @@
+{
+  "name": "nami-decorator",
+  "version": "0.6.17",
+  "description": "The decorator for nami",
+  "keywords": [
+    "decorator",
+    "aop"
+  ],
+  "author": "tianxiaobo''",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/packages/nami-decorator/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.sankuai.com/fe/nami.git"
+  },
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.ts"
+  },
+  "dependencies": {
+    "koa": "^2.13.1",
+    "lodash": "^4.17.21",
+    "mockjs": "^1.1.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.1",
+    "@types/koa-compose": "^3.2.5",
+    "@types/koa__router": "^8.0.4",
+    "@types/lodash": "^4.14.170",
+    "@types/mockjs": "^1.0.3",
+    "koa": "^2.13.1",
+    "rollup": "^2.52.7"
+  }
+}

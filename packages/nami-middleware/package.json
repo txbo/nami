@@ -1,0 +1,38 @@
+{
+  "name": "nami-middleware",
+  "version": "0.6.3",
+  "description": "The middleware for nami",
+  "author": "tianxiaobo''",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/packages/nami-middleware/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.sankuai.com/fe/nami.git"
+  },
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.ts"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.1",
+    "@types/koa-compose": "^3.2.5",
+    "@types/koa__router": "^8.0.4"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa-compose": "^4.1.0",
+    "koa-proxies": "^0.12.1"
+  },
+  "gitHead": "545ff5794213ee4b012c090b06acd2444304d7a5"
+}
